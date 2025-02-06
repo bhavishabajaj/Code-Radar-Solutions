@@ -2,7 +2,7 @@
 
 int main(){
     int a;
-    scanf("%d %d",&a,&b);
+    scanf("%d",&b);
     if(a>0){
         printf("Positive");
     }
