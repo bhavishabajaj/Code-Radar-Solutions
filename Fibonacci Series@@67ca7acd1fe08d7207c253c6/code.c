@@ -11,3 +11,8 @@ int fibonacciSeries(int n){
         return fibonacciSeries(n-1) + fibonacciSeries(n-2);
     }
 }
+int main(){
+    for(int i=1 ; i<=n , i++){
+        printf("%d",fibonacciSeries(n))
+    }
+}
