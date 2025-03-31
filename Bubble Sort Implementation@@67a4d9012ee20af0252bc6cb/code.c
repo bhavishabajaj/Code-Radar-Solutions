@@ -2,7 +2,7 @@
 #include <stdio.h>
 void bubblesort(){
     int temp;
-    for(u=0; u<n-1,u++){
+    for(int u=0; u<n-1,u++){
         for(j=0;j<n-u-1; j++){
             if(arr[j]>arr[j+1]){
             temp= arr[j];
