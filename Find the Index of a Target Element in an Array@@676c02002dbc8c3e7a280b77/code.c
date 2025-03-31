@@ -20,6 +20,6 @@ int main(){
     int T;
     scanf("%d", &T);
     int search= searchindex(arr, N, T);
-    printf("%d",i);
+    printf("%d",search);
     
 }
