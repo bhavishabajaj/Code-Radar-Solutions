@@ -15,9 +15,9 @@ int searchindex(int arr[] , int size , int T){
 int main(){
     int N; int size;
     scanf("%d %d",&N ,&size);
-    int arr[];
+    int arr[100];
     for(int j=0 ; j<N ; j++){
-        scanf("%d", &arr[i]);
+        scanf("%d", &arr[j]);
     }
     int T;
     scanf("%d", &T);
