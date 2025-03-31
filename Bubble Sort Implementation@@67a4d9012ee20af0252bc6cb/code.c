@@ -1,8 +1,8 @@
 // Your code here...
 #include <stdio.h>
-printarray(int arr, int n){
+void printarray(int arr[], int n){
     for(int i=0 ; i<n ; i++){
-        printf("%d",&arr[i]);
+        printf("%d", arr[i]);
     }
 }
 void bubblesort(){
