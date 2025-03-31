@@ -7,8 +7,8 @@ void printarray(int arr[], int n){
 }
 void bubblesort(int arr[], int n){
     int temp;
-    for(int u=0; u<n-1,u++){
-        for(j=0;j<n-u-1; j++){
+    for(int u=0; u<n-1 ; u++){
+        for(j=0 ; j<n-u-1; j++){
             if(arr[j]>arr[j+1]){
             temp= arr[j];
             arr[j] = arr[j+1];
