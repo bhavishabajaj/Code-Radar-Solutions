@@ -5,7 +5,7 @@ void printarray(int arr[], int n){
         printf("%d", arr[i]);
     }
 }
-void bubblesort(){
+void bubblesort(int arr[], int n){
     int temp;
     for(int u=0; u<n-1,u++){
         for(j=0;j<n-u-1; j++){
