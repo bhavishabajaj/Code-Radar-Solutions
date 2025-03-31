@@ -22,5 +22,5 @@ int main(){
     int T;
     scanf("%d", &T);
     int search= searchindex(arr, size, T);
-    printf("%d",i);
+    
 }
