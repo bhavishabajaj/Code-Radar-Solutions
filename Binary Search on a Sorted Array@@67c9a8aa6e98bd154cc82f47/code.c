@@ -1,6 +1,6 @@
 // Your code here...
 #include <stdio.h>
-int binarySearch(int arr[], int n , target){
+int binarySearch(int arr[], int n ,int target){
     int high ; int low ; int mid;
     while(low<=high){
     mid = (low+high)/2;
