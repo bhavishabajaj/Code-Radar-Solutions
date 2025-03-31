@@ -6,10 +6,8 @@ int searchindex(int arr[] , int size , int T){
         if (arr[i]==T){
             return i;
         }
-        else{
-            return -1;
-        }
     }
+    return -1;
 }
 
 int main(){
@@ -21,6 +19,7 @@ int main(){
     }
     int T;
     scanf("%d", &T);
-    int search= searchindex(arr, size, T);
+    int search= searchindex(arr, N, T);
+    printf("%d",&i);
     
 }
