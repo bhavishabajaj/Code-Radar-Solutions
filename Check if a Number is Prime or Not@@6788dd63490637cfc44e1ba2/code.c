@@ -1,7 +1,7 @@
 // Your code here...
 #include <stdio.h>
 int main(){
-    int num;
+    int num ; int c=2;
     scanf("%d", &num);
     while(c*c <= num){
         if(num%c==0){
