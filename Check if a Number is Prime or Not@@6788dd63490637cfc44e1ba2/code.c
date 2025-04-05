@@ -13,6 +13,6 @@ int main(){
         }
         c++;
     }
-    printf("Prime No");
+    printf("Prime");
     return 0;
 }
