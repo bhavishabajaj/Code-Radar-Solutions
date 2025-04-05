@@ -8,8 +8,8 @@ int main(){
             printf("NOt Prime");
             break;
         }
-        else(
+        else{
             printf("Prime");
-        )
+        }
     }
 }
