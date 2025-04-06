@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main(){
     int num ; int c=2;
-    if(num<=1){
+    scanf("%d" , &num);
+        if(num<=1){
         printf("Not Prime");
         return 0;
     }
